@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data
+# Ignore the entire data folder and any loose data files
+data/
+*.csv
+*.tsv
+*.json
+*.jsonl
+
+# Models
+# Ignore the entire models folder and any loose model files
+models/
+*.pkl
+*.h5
+*.joblib
+*.pt
+*.pth
+
+# Generated EDA Outputs
+# docs/eda/
+# (Uncomment the line above if you don't want to commit the generated EDA plots and CSVs)
+
+# Temporary/Scratch files
+scratch_test.py
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
